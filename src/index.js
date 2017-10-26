@@ -16,6 +16,7 @@ class Plyr extends Component {
     enabled: true,
     controls: ['play-large', 'play', 'progress', 'current-time', 'mute', 'volume', 'captions', 'fullscreen'],
     loadSprite: true,
+    iconUrl: null,
     iconPrefix: 'plyr',
     debug: false,
     autoplay: false,
